@@ -1,4 +1,5 @@
-entity_unit_map = {
+def new_func():
+    entity_unit_map = {
     'width': {'centimetre', 'foot', 'inch', 'metre', 'millimetre', 'yard'},
     'depth': {'centimetre', 'foot', 'inch', 'metre', 'millimetre', 'yard'},
     'height': {'centimetre', 'foot', 'inch', 'metre', 'millimetre', 'yard'},
@@ -33,4 +34,6 @@ entity_unit_map = {
         'quart'}
 }
 
-allowed_units = {unit for entity in entity_unit_map for unit in entity_unit_map[entity]}
+    allowed_units = {unit for entity in entity_unit_map for unit in entity_unit_map[entity]}
+
+new_func()
